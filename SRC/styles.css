@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    position: relative;
+  background: url("./img/bo-pai.jpeg") no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nuvemm{
+    width: 215px;
+    position: absolute;
+    top: -35px;
+    left: 298px;
+    z-index: 1;
+}
+.container {
+  position: relative;
+  background: url("./img//bg-pricipal.jpeg") no-repeat center center;
+  background-size: cover;
+  width: 480px;
+  padding: 20px;
+  height: 480px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-cidade {
+  border: none;
+  outline: none;
+  padding: 10px;
+  padding-left: 32px;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  width: calc(100% - 100px);
+}
+.input-cidade::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 0.9;
+}
+.input-cidade:focus::placeholder {
+  color: transparent;
+  transition: 0.5s ease-in-out;
+}
+.buscar-cidade {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.lupa-pai {
+  background: none;
+  border: none;
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+.lupa {
+  width: 30px;
+  background: none;
+  opacity: 0.8;
+  border-radius: 50%;
+  background: rgba(15, 2, 255, 0.1);
+}
+.central {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.Numero {
+  gap: 4px;
+  display: flex;
+  align-items: start;
+}
+.central p {
+  font-size: 70px;
+}
+.central span {
+  font-weight: bolder;
+  font-size: 23px;
+  margin-top: 10px;
+}
+.central h2 {
+  display: flex;
+  gap: 5px;
+}
+.local-pai {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.local {
+  background-color: rgba(102, 96, 200, 0.6);
+  border-radius: 50%;
+}
+.previsao {
+  text-transform: capitalize;
+}
+
+.informação {
+  position: fixed;
+  bottom: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.Umidade {
+  text-align: center;
+  width: 146px;
+  height: 60px;
+  background: rgba(102, 96, 200, 0.6);
+  border-radius: 20px;
+  color: white;
+  padding: 12px 16px;
+}
+.temperatura {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  width: 146px;
+  height: 60px;
+  color: white;
+  padding: 12px 16px;
+  background: rgba(102, 96, 200, 0.6);
+}
+.nuvem {
+  width: 50px;
+}
